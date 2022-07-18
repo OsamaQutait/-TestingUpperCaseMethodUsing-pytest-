@@ -6,7 +6,7 @@ def toUpperCase1(word):
 def toUpperCase2(word):
     ans = ""
     for character in word:
-        ans = ans + character.upper() + "5"
+        ans = ans + character.upper()
     return ans
 
 def test_method():
